@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Registration form </title>
+    </head>
+    <body bgcolor="gold">
+        <u><center><h1>Registration form </h1></center></u>
+        
+            <table align="center" cellpadding ="10">
+                <tr>
+
+                    <td> FullName :</td>
+                    <td><input type ="text" name="FullName"></td>
+                </tr>
+                <tr>
+                    <td>Email id :</td>
+                    <td><input type ="text" name="email_id"></td>
+                </tr>
+                <tr>
+                    <td>Gender :</td>
+                    <td>
+                        <input type="radio" name="Gender"> male
+                        <input type="radio" name="Gender"> female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mobile number :</td>
+                    <td>
+                        <input type="text" name="Mobile_nuber"> 
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>ADDRESS<br /><br /><br /></td>
+                    <td><textarea name="Address" rows="4" columns="30"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>CITY</td>
+                        <td><input type="text" name="City" maxlength="30"/>
+                        
+                        </td>
+                        </tr>
+                        <tr>
+                            <td>PINCODE</td>
+                            <td><input type="text" name="Pin_code" maxlenth="6"/>
+                            (6 digit number)
+                            </td>
+                            </tr>
+                            <tr>
+                                <td>STATE</td>
+                                <td><input type="text" name="State" maxlength="30"/>
+                                
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td>COUNTRY</td>
+                                    <td><input type="text" name="Country"  readonly="readonly"/>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                        <td>QUALIFICATION<br /><br /><br /><br /><br /><br /><br /></td>
+                                        <td>
+                                        <table>
+                                        <tr>
+                                        <td align="center"><b>S1.No.</b></td>
+                                        <td align="center"><b>Examination</b></td>
+                                        <td align="center"><b>Board</b></td>
+                                        <td align="center"><b>Percentage</b></td>
+                                        <td align="center"><b>Year of Passing</td>
+                                        </tr> 
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Class X</td>
+                                            <td><input type="text" name="ClassX_Board" maxlength="30" /></td>
+                                            <td><input type="text" name="ClassX_Percentage" maxlength="30"/></td>
+                                            <td><input type="text" name="ClassX_YrofPassing" maxlemgth="30"/></td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Class XII</td>
+                                                <td><input type="text" name="ClassXII_Board" maxlength="30" /></td>
+                                                <td><input type="text" name="ClassXII_Percentage" maxlength="30" /></td>
+                                                <td><input type="text" name="ClassXII_YrofPassing" maxlength="30" /></td>
+                                                </tr>
+                                                <tr>
+                                                <td>3</td>
+                                                <td>Graduation</td>
+                                                <td> <input type="text" name="Graduation_Board" maxlength="30" /></td>
+                                                <td><input type="text" name="Graduation_Percentage" maxlength="30" /></td>
+                                                <td><input type="text" name="Graduation_YrofPassing" maxlength="30" /></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td align="center">(10 char max)</td>
+                                                    <td align="center">(upto 2 decimal)</td>
+                                                    </tr>
+                                                    </table>
+                                                    </td>
+                                                    </tr>
+                                                <tr>
+                                                    <td>COURSES<br />APPLIED FOR</td>
+                                                    <td>
+                                                    BCA
+                                                    <input type="radio" name="Course_BTech" value="BTech">
+                                                    B.Com
+                                                    <input type="radio" name="Course_BCA" value="BCA">
+                                                    B.Sc
+                                                    <input type="radio" name="Course_BSc" value="B.Sc">
+                                                    B.A
+                                                    <input type="radio" name="Course_BA" value="B.A">
+                                                    B.Tech
+                                                    <input type="radio" name="Course_B.Com" value="B.Com">
+                                                    </td>
+                                                    </tr>
+                <tr>
+                <td><input type="Submit" value="Submit"></td>
+                </tr> 
+                </table>
+            </table>
+        </form>
+    </body>
+</html>
